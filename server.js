@@ -76,7 +76,7 @@ app.get('/collectibles/:index', (req, res) => {
 
         const { name, price } = selectedItem; // accesses the properties, the name and price in this case.
 
-        const responseMessage = `So, you want ${name}? For ${price}, it cane be yours!`; // constructs the final response string
+        const responseMessage = `So, you want ${name}? For ${price}, it can be yours!`; // constructs the final response string
 
         res.send(responseMessage); // sends response message back to the user
     }
